@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-pagination .ant-pagination-item-active {
+    background-color: blue;
+    border: white;
+
+}
+.ant-pagination .ant-pagination-item-active a {
+    color: white !important;
+
+}
+.ant-pagination .ant-pagination-item-active:hover a {
+    color: white !important;
+
+}
